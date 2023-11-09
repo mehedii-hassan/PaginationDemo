@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/paginationFragment">
+
+    <fragment
+        android:id="@+id/paginationFragment"
+        android:name="com.example.paginationdemo.ui.PaginationFragment"
+        android:label="PaginationFragment"
+        tools:layout="@layout/fragment_pagination" />
+</navigation>
